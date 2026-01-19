@@ -2,7 +2,7 @@
 
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1_RXfJug9PT9IeKYSqagvkRgzEn5d3LP1)
 
-This project analyzes **UIDAI Aadhaar monthly data for Pune district** using three separate datasets:
+This project analyzes **UIDAI Aadhaar  datasets for Pune district** :
 - Aadhaar enrolment data
 - Biometric update data
 - Demographic update data
@@ -12,9 +12,8 @@ The analysis focuses on understanding how enrolments and updates are distributed
 ---
 
 ## 📌 Problem Statement
-
-UIDAI publishes monthly Aadhaar statistics in separate datasets for enrolments, biometric updates, and demographic updates.  
-This project explores these datasets to summarize:
+ 
+This project explores UIDAI datasets to summarize:
 - Age-wise Aadhaar enrolments
 - Frequency of biometric updates
 - Distribution of demographic update types
