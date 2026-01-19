@@ -1,77 +1,55 @@
-# Pune-UIDAI-Aadhar-Dataset-Analysis
+# Pune UIDAI Aadhaar Dataset Analysis
 
-## Overview
-This project analyzes the **UIDAI Aadhaar monthly enrolment , UIDAI demographic update , UIDAI biometric Update  datasets for Pune district** using Python.  
-The notebook focuses on examining **Aadhaar enrolments, biometric updates, and demographic updates** across different age groups to understand how identity registrations and updates are distributed.
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1_RXfJug9PT9IeKYSqagvkRgzEn5d3LP1)
 
-The work is purely exploratory and descriptive in nature.
+This project analyzes **UIDAI Aadhaar monthly data for Pune district** using three separate datasets:
+- Aadhaar enrolment data
+- Biometric update data
+- Demographic update data
 
----
-
-## Dataset
-- Source: UIDAI Aadhaar Monthly Enrollment Data ,  UIDAI demographic update , UIDAI biometric Update
-- Region: Pune District
-
-
-### Data includes:
-- Aadhaar enrolments by age groups:
-  - 0–5 years
-  - 5–17 years
-  - 18+ years
-- Biometric updates:
-  - Fingerprint updates
-  - Iris updates
-- Demographic updates:
-  - Address updates
-  - Name updates
-  - Date of birth updates
-  - Gender updates
-  - Mobile and email updates
+The analysis focuses on understanding how enrolments and updates are distributed across age groups and update categories.
 
 ---
 
-## Tools and Libraries
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
+## 📌 Problem Statement
+
+UIDAI publishes monthly Aadhaar statistics in separate datasets for enrolments, biometric updates, and demographic updates.  
+This project explores these datasets to summarize:
+- Age-wise Aadhaar enrolments
+- Frequency of biometric updates
+- Distribution of demographic update types
+
+The goal is to perform exploratory analysis and visualize observed patterns.
 
 ---
 
-## Work Done
-1. Loaded the Aadhaar datasets using Pandas and inspected its structure.
-2. Selected columns related to enrolments, biometric updates, and demographic updates.
-3. Aggregated enrolment data across different age groups using column-wise summation.
-4. Analyzed biometric update counts to observe relative distribution between fingerprint and iris updates.
-5. Examined demographic update data to understand the frequency of different types of data modifications.
-6. Used basic descriptive analysis to summarize observed patterns.
-7. Created visualizations using Matplotlib and Seaborn to compare enrolment and update categories.
+## 🧠 Key Analysis Covered
+
+- Analysis of Aadhaar enrolments by age group (0–5, 5–17, 18+)
+- Analysis of biometric updates (fingerprint and iris)
+- Analysis of demographic updates (address, name, DOB, gender, contact details)
+- Aggregation and comparison across datasets
+- Visualization of enrolment and update distributions
 
 ---
 
-## Visualizations
-The notebook includes:
-- Bar plots for age-wise Aadhaar enrolments
-- Comparison plots for biometric updates
-- Distribution plots for demographic updates
-- Combined plots to compare enrolments with update activities
+## 🛠️ Tech Stack
+
+- **Language**: Python  
+- **Environment**: Google Colab / Jupyter Notebook  
+- **Libraries**:
+  - `pandas`, `numpy` for data loading and aggregation
+  - `matplotlib`, `seaborn` for visualization
 
 ---
 
-## Observations
-- Aadhaar enrolments are highest in the adult (18+) category.
-- Biometric updates are consistently present across age groups.
-- Demographic updates such as address and contact details form a significant portion of update activity.
-- The dataset reflects Aadhaar activity beyond initial enrolment, including ongoing data updates.
+## 🚀 Getting Started
 
----
+### Run on Google Colab
+Click the badge above or open the notebook directly:  
+https://colab.research.google.com/drive/1_RXfJug9PT9IeKYSqagvkRgzEn5d3LP1
 
-## Files
-- `Untitled15.ipynb` – Jupyter notebook containing data analysis and visualizations
-
----
-
-## Notes
-This project is intended as an exploratory analysis of publicly available Aadhaar statistics and does not involve predictive modeling or inference.
-
+### Run Locally
+1. Clone the repository  
+   ```bash
+   git clone https://github.com/Raviraj-Kutwal/Pune-UIDAI-Aadhar-Dataset-Analysis.git
